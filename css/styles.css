@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: blue;
+}
+
+h3 {
+  color: hotpink;
+}
+.description {
+  color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.animal {
+  color: darkviolet;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#someid {
+  color: chartreuse;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item {
+  color: blue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item.item2 {
+  color: brown;
+}
+
+.item > .link1 {
+  color: teal;
+}
+
+.item > .link2 {
+  color: olive;
+}
+
+.item.item3 {
+  color: indigo;
+}

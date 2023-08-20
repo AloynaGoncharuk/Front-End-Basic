@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: grey;
+}
+
+.container {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 10px;
+}
+.card {
+  display: inline-block;
+  background: #c4c4c4;
+  max-width: 200px;
+  min-height: 236px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+img {
+  width: 170px;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.description {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+}

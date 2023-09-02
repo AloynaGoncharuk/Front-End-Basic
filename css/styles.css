@@ -23,7 +23,7 @@ html {
 
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(1110px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -33,4 +33,163 @@ html {
 
 .hidden {
   display: none !important;
+}
+
+.header {
+  padding-top: 79px;
+  padding-bottom: 79px;
+  background-color: #eeeff1;
+}
+
+.nav-link + .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 42px;
+  color: #000000;
+}
+
+.color {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #34547a;
+}
+
+.first-section {
+  background-color: #eeeff1;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 78px;
+  max-width: 541px;
+  text-align: left;
+}
+
+.design,
+.description,
+.movie {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 540px;
+  color: #727272;
+}
+
+.design {
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+
+.description,
+.movie {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.movie {
+  margin-bottom: 57px;
+}
+
+.write-me {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  width: 225px;
+  height: 65px;
+  background-color: #34547a;
+  color: #ffffff;
+}
+
+.about {
+  background-color: #eeeff1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 403px;
+  color: #000000;
+}
+
+.cards {
+  background-color: #34547a;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.number,
+.project {
+  display: inline-block;
+}
+
+.number {
+  width: 36px;
+  height: 19px;
+}
+
+.project {
+  width: 71px;
+  height: 15px;
+}
+
+.pr {
+  width: 71px;
+  height: 44px;
+  text-align: left;
+  float: left;
+}
+
+.wrapper + .wrapper {
+  margin-right: 49px;
+}
+
+.video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #34547a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.person {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.end {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
 }

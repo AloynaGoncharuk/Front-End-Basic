@@ -8,22 +8,22 @@ a {
   text-decoration: none;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 14;
   font-weight: 400;
-  color: #353535;
+  color: #fff;
 }
 
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(1110px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -33,4 +33,126 @@ html {
 
 .hidden {
   display: none !important;
+}
+
+.body {
+  background: #ccc url(../images/2.jpg) no-repeat center/cover;
+  width: 100vw;
+  color: #fff;
+  height: 100vh;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  line-height: 100vh;
+  margin-left: auto;
+}
+
+.section {
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.top {
+  max-width: 340px;
+  height: 36px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 75px;
+}
+
+.enter {
+  width: 168px;
+  height: 32px;
+  border-radius: 30px;
+  border-color: #153416;
+  border: 1px;
+  display: inline-block;
+  background-color: #153416;
+  color: #fff;
+}
+
+.regisrt {
+  width: 172px;
+  height: 32px;
+  border-radius: 30px;
+  border-color: #153416;
+  background: none;
+  display: inline;
+  color: #fff;
+  float: right;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+input {
+  width: 340px;
+  height: 44px;
+  display: block;
+  border-radius: 30px;
+  border: none;
+  background-color: #929191;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 340px;
+  height: 44px;
+  display: block;
+  border-radius: 30px;
+  border: none;
+  background-color: #153416;
+  color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.description {
+  display: inline-block;
+  color: #153416;
+}
+
+a {
+  margin-left: 15px;
+}
+
+.wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.network {
+  text-align: center;
+  color: #153416;
+  margin-bottom: 20px;
+}
+.img {
+  max-width: 102px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+::placeholder {
+  color: #fff;
+  padding-left: 20px;
+}
+
+.checkbox {
+  max-width: 120px;
+  height: 15px;
+  /* margin-top: 20px; */
+  margin-bottom: 30px;
 }

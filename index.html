@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -9,20 +9,48 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
-    <header></header>
-    <main>
-        <section>
+<body class="body">
+    <main class="main">
+        <section class="section">
             <div class="container">
-                <h1>Lesson template</h1>
-                <img src="./images/1.jpg" alt="Foto" width="500">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus, similique inventore
-                    soluta quae distinctio et ipsum animi quibusdam voluptate minima laborum debitis, porro optio
-                    consectetur placeat? Vel, necessitatibus nam..</p>
+
+                <div class="top">
+                    <button class="enter">Вхід</button>
+                    <button class="regisrt">Реєстрація</button>
+                </div>
+
+                <h1 class="title">Вхід</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <input type="text" name="e-mail" placeholder="Введіть e-mail">
+                    <input type="text" name="password" placeholder="Пароль">
+                </form>
+
+                <p class="checkbox">
+                    <input type="checkbox" name="option" id="luk" value="luk"> Запам’ятати мене
+                </p>
+
+                <form action="https://fom.in.ua/echo" method="post">
+                    <button type="submit" class="submit">Вхід</button>
+                </form>
+
+
+                <div class="wrapper">
+                    <p class="description">Немає акаунту?</p>
+                    <a href="./pages/registration.html">Зареєструватись?</a>
+                </div>
+
+                <p class="network">Ввійти через</p>
+
+                <div class="img">
+                    <img src="./images/3.png" alt="Foto">
+                </div>
+
+
+
             </div>
         </section>
     </main>
-    <footer></footer>
+
     <script src="./js/skript.js"></script>
 </body>
 

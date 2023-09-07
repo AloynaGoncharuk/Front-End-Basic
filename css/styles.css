@@ -166,3 +166,22 @@ input {
   color: #153416;
   text-decoration: underline;
 }
+
+.exit {
+  width: 168px;
+  height: 32px;
+  border-radius: 30px;
+  display: inline-block;
+  color: #fff;
+  background: none;
+}
+
+.record {
+  width: 172px;
+  height: 32px;
+  border-radius: 30px;
+  display: inline;
+  color: #fff;
+  float: right;
+  background-color: #153416;
+}

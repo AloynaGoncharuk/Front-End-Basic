@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson template</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body class="body">
@@ -15,35 +15,30 @@
             <div class="container">
 
                 <div class="top">
-                    <button class="enter">Вхід</button>
-                    <button class="regisrt">Реєстрація</button>
+                    <button class="exit">Вхід</button>
+                    <button class="record">Реєстрація</button>
                 </div>
 
-                <h1 class="title">Вхід</h1>
+                <h1 class="title">Зареєструватись</h1>
                 <form action="https://fom.in.ua/echo" method="post">
                     <input class="input" name="e-mail" placeholder="Введіть e-mail">
                     <input class="input" name="password" placeholder="Пароль">
+                    <input class="input" name="password" placeholder="Повторити пароль">
                 </form>
 
                 <form class="label">
                     <label class="checkbox">
-                        <input type="checkbox" name="memory" value="html"> Запам’ятати мене
+                        <input type="checkbox" name="memory" value="html"> Отримувати новини
                         <span class="span">Забули пароль</span>
                     </label>
                 </form>
 
 
-                <button type="submit" class="submit">Вхід</button>
+                <button type="submit" class="submit">Зареєструватись</button>
 
                 <div class="wrapper">
-                    <p class="description">Немає акаунту?</p>
-                    <a href="./pages/registration.html">Зареєструватись</a>
-                </div>
-
-                <p class="network">Ввійти через</p>
-
-                <div class="img">
-                    <img src="./images/3.png" alt="Foto">
+                    <p class="description">Вже є акаунт?</p>
+                    <a href="../index.html">Авторизуватись?</a>
                 </div>
 
             </div>

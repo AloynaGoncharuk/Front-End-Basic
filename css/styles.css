@@ -28,7 +28,6 @@ html {
 
 .body {
   background: #ccc url(../images/2.jpg) no-repeat center/cover;
-  width: 100vw;
   color: #fff;
 }
 
@@ -45,7 +44,7 @@ html {
   line-height: 1.5;
 }
 
-.top {
+.switch {
   max-width: 340px;
   height: 36px;
   margin-top: 60px;
@@ -53,7 +52,7 @@ html {
   margin-left: auto;
   margin-bottom: 75px;
   border-radius: 30px;
-  border: 1px #153416;
+  border: none;
 }
 
 .enter {
@@ -111,11 +110,14 @@ html {
 .description {
   display: inline-block;
   color: #153416;
+  margin-right: 15px;
 }
 
 a {
-  margin-left: 15px;
+  display: inline-block;
+  margin-right: 20px;
   text-decoration: underline;
+  color: #fff;
 }
 
 .wrapper {
@@ -127,12 +129,6 @@ a {
   text-align: center;
   color: #153416;
   margin-bottom: 20px;
-}
-.img {
-  max-width: 102px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 ::placeholder {
@@ -184,4 +180,17 @@ input {
   color: #fff;
   float: right;
   background-color: #153416;
+}
+.message {
+  height: 24px;
+  color: #153416;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img + img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
 }

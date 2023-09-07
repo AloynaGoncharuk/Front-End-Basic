@@ -21,18 +21,19 @@
 
                 <h1 class="title">Вхід</h1>
                 <form action="https://fom.in.ua/echo" method="post">
-                    <input type="text" name="e-mail" placeholder="Введіть e-mail">
-                    <input type="text" name="password" placeholder="Пароль">
+                    <input class="input" name="e-mail" placeholder="Введіть e-mail">
+                    <input class="input" name="password" placeholder="Пароль">
                 </form>
 
-                <p class="checkbox">
-                    <input type="checkbox" name="option" id="luk" value="luk"> Запам’ятати мене
-                </p>
-
-                <form action="https://fom.in.ua/echo" method="post">
-                    <button type="submit" class="submit">Вхід</button>
+                <form class="label">
+                    <label class="checkbox">
+                        <input type="checkbox" name="memory" value="html"> Запам’ятати мене
+                        <span class="span">Забули пароль</span>
+                    </label>
                 </form>
 
+
+                <button type="submit" class="submit">Вхід</button>
 
                 <div class="wrapper">
                     <p class="description">Немає акаунту?</p>
@@ -44,8 +45,6 @@
                 <div class="img">
                     <img src="./images/3.png" alt="Foto">
                 </div>
-
-
 
             </div>
         </section>

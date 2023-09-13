@@ -23,14 +23,103 @@ html {
 
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(var(--container-width) + (var(--basic-space) * 2));
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
   position: relative;
 }
 
 .hidden {
   display: none !important;
+}
+
+.body {
+  background-color: lightpink;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+}
+
+.parent {
+  width: 200px;
+  list-style: none;
+  background-color: antiquewhite;
+  position: relative;
+  list-style: none;
+  color: red;
+}
+
+.parent:hover {
+  width: 200px;
+  background-color: #ccc;
+}
+
+.child {
+  width: 200px;
+  position: absolute;
+  display: none;
+  list-style: none;
+  text-align: center;
+  top: 20px;
+  height: 120px;
+  line-height: 40px;
+  background-color: antiquewhite;
+  font-size: 16px;
+}
+
+.li {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.parent:hover > .child {
+  display: block;
+}
+
+li:hover {
+  background-color: #ccc;
+  transition: all 0.5s;
+}
+
+.child1 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+  list-style: none;
+  display: none;
+  background-color: antiquewhite;
+}
+
+.parent:hover > .child1 {
+  display: block;
+}
+
+.parent::after {
+  content: "+";
+  position: absolute;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: red;
+  text-decoration: underline;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }

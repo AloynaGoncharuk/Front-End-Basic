@@ -1,28 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson template</title>
+    <title>Amelia site</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header></header>
+
+    <header class="header">
+        <div class="container flex items-center justify-between">
+            <a href="#" class="logo flex items-center">Amelia F</a>
+            <nav class="nav-link flex items-center">
+                <a href="#" class="nav-link">Главная</a>
+                <a href="#" class="nav-link">О нас</a>
+                <a href="#" class="nav-link">Как мы работаем</a>
+                <a href="#" class="nav-link">Наши работы</a>
+                <a href="#" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
     <main>
-        <section>
+        <section class="first-section">
+            <div class="container flex items-center gap-30">
+                <div class="text-wrapper">
+                    <h1 class="main-title">Amelia Flowers</h1>
+                    <p class="description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <button class="btn-green">Заказать букет</button>
+                    <button class="btn-grey">Помощь флориста</button>
+                </div>
+                <img src="./images/2.jpg" alt="Foto">
+            </div>
+        </section>
+
+        <section class="about">
             <div class="container">
-                <h1>Lesson template</h1>
-                <img src="./images/1.jpg" alt="Foto" width="500">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus, similique inventore
-                    soluta quae distinctio et ipsum animi quibusdam voluptate minima laborum debitis, porro optio
-                    consectetur placeat? Vel, necessitatibus nam..</p>
+                <h2 class="title">О НАС</h2>
+                <p class="description-1">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="container flex items-center justify-between gap-45">
+                <article class="card-1">
+                    <img src="./images/3.png" alt="Foto">
+                    <p class="pr">Лучшие цены</p>
+                </article>
+
+                <article class="card-2">
+                    <img src="./images/4.png" alt="Foto">
+                    <p class="pr">Индивидуальный подбор</p>
+                </article>
+
+                <article class="card-3">
+                    <img src="./images/5.png" alt="Foto">
+                    <p class="pr">Быстрая доставка</p>
+                </article>
+
+                <article class="card-4">
+                    <img src="./images/6.png" alt="Foto">
+                    <p class="pr">Всегда свежие цветы</p>
+                </article>
+
+                <article class="card-5">
+                    <img src="./images/7.png" alt="Foto">
+                    <p class="pr">Бонусная система</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="container flex items-center gap-30 flex-reverse">
+                <div class="wrapper">
+                    <h2 class="title">Как мы работаем</h2>
+                    <p class="description-1">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+                <img src="./images/8.jpg" alt="Foto">
+            </div>
+        </section>
+
+        <section class="pictures">
+            <div class="container ">
+                <h2 class="title-1">Наши работы</h2>
+                <div class="foto flex items-center gap-30">
+                    <article class="card-7">
+                        <img src="./images/9.jpg" alt="Foto">
+                        <p class="description-2">Букет” Флоренция”</p>
+                    </article>
+
+                    <article class="card-7">
+                        <img src="./images/10.jpg" alt="Foto">
+                        <p class="description-2">Букет” Флоренция”</p>
+                    </article>
+
+                    <article class="card-7">
+                        <img src="./images/11.jpg" alt="Foto">
+                        <p class="description-2">Букет” Флоренция”</p>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+
+    <footer class="footer">
+        <div class="container flex justify-between">
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <a href="tel:+380517328964">+380517328964</a>
+                <a href="tel:+380517328964">+380517328964</a>
+                <p class="adress">Харьков, ул Сумская 115</p>
+            </div>
+            <a href="#" class="logo-1">Amelia F</a>
+            <div class="network">
+                <h3>Мы в соц. сетях</h3>
+                <a href="#"><img src="./images/14.png" alt="Foto"></a>
+                <a href="#"><img src="./images/13.png" alt="Foto"></a>
+                <a href="#"><img src="./images/12.png" alt="Foto"></a>
+            </div>
+        </div>
+        <p class="c">© 2023</p>
+    </footer>
+
     <script src="./js/skript.js"></script>
 </body>
 

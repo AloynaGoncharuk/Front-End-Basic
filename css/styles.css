@@ -1,3 +1,10 @@
+/* :root {
+  --text-size: 18px;
+  --text-color: #161616;
+  --basic-color: #81a36b;
+  --bg-color: #d8d8d6;
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +15,10 @@ a {
   text-decoration: none;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 html {
   font-family: "Roboto", sans-serif;
@@ -23,7 +30,7 @@ html {
 
 .container {
   width: 100%;
-  max-width: calc(1110px+2rem);
+  max-width: calc(1110px + 2rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -33,4 +40,268 @@ html {
 
 .hidden {
   display: none !important;
+}
+/* ----------------------------------------------------------------- */
+.header {
+  background-color: #81a36b;
+  color: #161616;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+/* ------------------------------------------------------------------- */
+.logo {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 38px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.53px;
+  gap: 90px;
+}
+/* ------------------------------------------------------------------------------ */
+.first-section {
+  background-color: #d8d8d6;
+}
+
+.text-wrapper {
+  max-width: 540px;
+}
+
+.main-title {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 66.71px;
+  text-align: center;
+  color: #161616;
+}
+.description {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.53px;
+  color: #161616;
+}
+
+.first-section img {
+  width: 540px;
+  height: 670px;
+}
+
+.btn-green {
+  background-color: #81a36b;
+  padding: 20px 31px 19px 31px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #161616;
+  margin-right: 65px;
+}
+
+.btn-grey {
+  background-color: #d8d8d6;
+  padding: 20px 16px 19px 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #161616;
+}
+/* ----------------------------------------------------- */
+.about,
+.work {
+  background-color: #d8d8d6;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title,
+.title-1 {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34.43px;
+  text-align: center;
+  color: #161616;
+}
+
+.title {
+  padding-bottom: 60px;
+}
+
+.description-1 {
+  max-width: 540px;
+  min-height: 86.6px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----------------------------------------------------------- */
+.gap-45 {
+  gap: 45px;
+}
+
+.cards {
+  background-color: #81a36b;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 122px;
+  text-align: center;
+}
+
+.cards img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.card-1 {
+  max-width: 132px;
+}
+
+.card-2 {
+  max-width: 246px;
+}
+
+.card-3 {
+  max-width: 171px;
+}
+
+.card-4 {
+  max-width: 205px;
+}
+
+.card-5 {
+  max-width: 174px;
+}
+
+.pr {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+/* -------------------------------------------------------------- */
+.work img {
+  width: 539px;
+  height: 560px;
+}
+/* -------------------------------------------------------------- */
+.pictures {
+  background-color: #d8d8d6;
+  padding-bottom: 120px;
+}
+
+.title-1 {
+  padding-bottom: 80.22px;
+}
+
+.card-7 {
+  width: 350px;
+  height: 510px;
+  background-color: #81a36b;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+}
+
+.pictures img {
+  width: 320px;
+  height: 402px;
+}
+
+.description-2 {
+  padding-top: 23px;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.53px;
+  color: #161616;
+  text-align: center;
+}
+/* ---------------------------------------------------------------- */
+
+.footer {
+  background-color: #81a36b;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contacts {
+  width: 210px;
+  height: 210px;
+}
+
+h3 {
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39.38px;
+}
+
+.contacts a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.53px;
+  margin-top: 20px;
+}
+
+.adress {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.53px;
+  margin-top: 20px;
+}
+
+.logo-1 {
+  font-family: "Vetrino";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 38px;
+}
+
+.network {
+  width: 180px;
+  height: 104px;
+  text-align: center;
+}
+
+.network img {
+  display: inline;
+  margin-right: 20px;
+}
+
+.c {
+  width: 56px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
 }

@@ -121,6 +121,7 @@ html {
   line-height: 21.09px;
   color: #161616;
   margin-right: 65px;
+  border: none;
 }
 
 .btn-grey {
@@ -130,6 +131,7 @@ html {
   font-size: 18px;
   line-height: 21.09px;
   color: #161616;
+  border-color: #81a36b;
 }
 /* ----------------------------------------------------- */
 .about,

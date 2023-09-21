@@ -95,11 +95,6 @@ html {
   flex-wrap: wrap;
 }
 /* ----------------------------- */
-.header {
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-
 .logo img {
   width: 32px;
   height: 32px;
@@ -122,21 +117,12 @@ html {
 }
 
 .nav {
-  height: 24px;
+  padding: 36px 16px;
 }
 
-.nav-link1 {
-  width: 44px;
-  border-bottom: 1px solid #161513;
-}
-
-.nav-link2 {
-  width: 48px;
-  border-bottom: 1px solid #161513;
-}
-
+.nav-link1,
+.nav-link2,
 .nav-link3 {
-  width: 64px;
   border-bottom: 1px solid #161513;
 }
 
@@ -145,7 +131,6 @@ html {
   border: 1px solid #161513;
 }
 /* --------------------------------------------------- */
-
 .container1 {
   /* width: 100%; */
   max-width: calc(1060px + 2rem);
@@ -165,15 +150,14 @@ html {
   padding-bottom: 49px;
 }
 
-.card1 {
-  width: 674.17px;
-  min-height: 562.5px;
-}
-
 .card1 img,
 .reach img {
   width: 40px;
   height: 40px;
+}
+
+.main-title {
+  padding-right: 24px;
 }
 
 .main-title,
@@ -183,7 +167,6 @@ html {
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-  min-height: 64px;
 }
 
 .description,
@@ -225,12 +208,6 @@ p,
   color: #ffffff;
   border: 1px solid #161513;
 }
-
-.card2 img {
-  width: 562px;
-  min-height: 563px;
-}
-
 /* ------------------------------------------------------- */
 .about {
   margin-top: 123.76px;
@@ -239,24 +216,13 @@ p,
 }
 
 .about-lead {
-  width: 408px;
-  height: 304px;
+  max-width: 408px;
   padding-right: 57px;
   padding-bottom: 58.5px;
 }
 
 .description1 {
   margin-bottom: 21.5px;
-}
-
-.content {
-  width: 351px;
-  height: 192px;
-}
-
-.birth {
-  width: 612px;
-  height: 304px;
 }
 
 .place,
@@ -282,7 +248,8 @@ p,
 .product1,
 .product2,
 .artb,
-.motion2 {
+.motion2,
+.span {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -304,16 +271,17 @@ p,
 }
 
 .year,
+.year1 {
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+.year,
 .year1,
 .year3,
 .artb {
   text-align: center;
   text-transform: uppercase;
-}
-
-.four,
-.four1 {
-  width: 352px;
 }
 
 .four1 {
@@ -335,7 +303,6 @@ p,
 }
 
 .reach {
-  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -347,7 +314,10 @@ p,
 }
 
 .title,
-.epic {
+.epic,
+.epic1,
+.epic2,
+.epic3 {
   font-weight: 400;
   font-size: 45px;
   line-height: 56px;
@@ -367,33 +337,47 @@ p,
   border: 2px solid #161513;
   margin-bottom: 24px;
 }
+
+.span {
+  background-color: #e94d35;
+  padding: 7px 19px 9px 19px;
+  text-align: center;
+  color: #ffffff;
+}
 /* ---------------------------------------- */
 .art {
-  height: 307px;
   margin-bottom: 96px;
 }
 
 .artb {
-  width: 180px;
-  height: 40px;
+  padding: 3px 12px 5px 12px;
   background-color: #e94d35;
   color: #ffffff;
   border: none;
 }
 
-.direction {
-  height: 264px;
-}
-
-.direction1 {
-  width: 556px;
-  height: 208px;
+.epic,
+.epic1,
+.epic2,
+.epic3 {
+  margin-top: 30px;
+  margin-bottom: 49px;
 }
 
 .epic {
-  margin-top: 30px;
-  margin-bottom: 49px;
   padding-right: 39px;
+}
+
+.epic1 {
+  padding-right: 75px;
+}
+
+.epic2 {
+  padding-right: 91px;
+}
+
+.epic3 {
+  padding-right: 103px;
 }
 
 .read {
@@ -408,8 +392,7 @@ p,
 }
 
 .web {
-  width: 510px;
-  height: 196px;
+  max-width: 510px;
   border: 2px solid #161513;
   padding: 34px 49px 30px 34px;
 }
@@ -427,10 +410,9 @@ p,
 }
 
 .trade-mark {
-  width: 241px;
-  height: 98px;
-  border: 1px solid #161513;
-  padding: 43px 59px;
+  max-width: calc(25% - (96px / 4));
+  border: 1px solid #131416;
+  padding: 42px 85px;
 }
 /* --------------------------------------- */
 .articles {
@@ -447,24 +429,12 @@ p,
 
 .row,
 .row1 {
-  min-height: 72px;
-  padding-left: 34px;
-  padding-right: 34px;
+  padding: 0px 34px 9px 34px;
   border: 1px solid #161513;
 }
 
 .row {
   margin-bottom: 100px;
-}
-
-.design {
-  width: 476px;
-  height: 72px;
-}
-
-.design3 {
-  width: 476px;
-  height: 104px;
 }
 
 .design1 {
@@ -473,23 +443,27 @@ p,
   line-height: 32px;
   color: #e94d35;
 }
+
+.design2 {
+  padding-right: 44px;
+}
+
 .artdesign {
-  width: 457px;
-  height: 48px;
+  max-width: 457px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
 .browse {
-  min-height: 58px;
   background-color: #161513;
   color: #ffffff;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  padding-top: 13px;
+  padding-top: 12px;
+  padding-bottom: 14px;
 }
 /* -------------------------------- */
 .adress {
@@ -501,22 +475,13 @@ p,
   padding-bottom: 60px;
 }
 
-.newsletter {
-  width: 311px;
-  height: 32px;
-}
-
 .input {
-  width: 518px;
-  height: 56px;
   padding: 12px 22px;
   background-color: #e6e3de;
   color: #161513;
 }
 
 .submit {
-  width: 140px;
-  height: 56px;
   padding: 12px 15px;
   background-color: #161513;
   color: #ffffff;
@@ -526,11 +491,6 @@ p,
   padding-top: 66px;
   padding-bottom: 25px;
   background-color: #161513;
-}
-
-.guide,
-.network {
-  height: 40px;
 }
 
 .guide {
@@ -543,6 +503,7 @@ p,
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+  padding: 7.56px 16px 8.44px 16px;
 }
 
 .net {
@@ -550,12 +511,13 @@ p,
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+  padding: 7.56px 0px 8.44px 0px;
 }
 /* -------------------------------------- */
-
 .motion {
   margin-top: 49px;
-  height: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   background-color: #161513;
   rotate: -4.93deg;
 }
@@ -563,4 +525,3 @@ p,
 .motion2 {
   color: #ffffff;
 }
-/* ------------------------------- */

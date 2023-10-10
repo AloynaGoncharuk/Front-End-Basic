@@ -142,10 +142,13 @@ html {
   grid-column: 2/3;
 }
 
-.contact:hover {
+.contact {
   transition: 0.3s linear;
+  border-bottom: 2px solid none;
+}
+
+.contact:hover {
   color: #f0145a;
-  border-bottom: 2px solid #f0145a;
 }
 /* --------------------- */
 .container1 {
@@ -179,10 +182,14 @@ html {
   grid-gap: 60px;
 }
 
-.card:hover * {
+.card:hover svg * {
+  transition: 0.3s;
+  stroke: #f0145a;
+}
+
+.card:hover .name {
   transition: 0.3s;
   color: #f0145a;
-  stroke: #f0145a;
 }
 
 .wrap {
@@ -285,6 +292,27 @@ html {
   .law {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+/* ---------------------------------- */
+@media (max-width: 572px) {
+  .container {
+    width: 100%;
+  }
+  .btn {
+    display: inline-block;
+    border: none;
+    background-color: #ffffff;
+    width: 32px;
+    height: 32px;
+    grid-column: 2/3;
+    align-self: center;
+  }
+  .social-link svg,
+  .services,
+  .adress,
+  .footer svg {
+    display: none;
   }
 }
 /* -------------------------- */

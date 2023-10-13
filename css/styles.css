@@ -154,8 +154,13 @@ html {
   border-bottom: 2px solid none;
 }
 
+.contact1 {
+  color: #f0145a;
+}
+
 .contact:hover {
   color: #f0145a;
+  border-bottom: 2px solid #f0145a;
 }
 /* --------------------- */
 .container1 {
@@ -232,7 +237,6 @@ html {
   padding-top: 30px;
 }
 
-.information,
 .help {
   padding-bottom: 30px;
 }
@@ -272,11 +276,13 @@ html {
   line-height: 17.07px;
   color: #b3b3ba;
   text-align: left;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .submit {
   width: 100%;
+  margin-top: 30px;
   padding-top: 18px;
   padding-bottom: 18px;
   border-radius: 12px;
@@ -285,13 +291,9 @@ html {
   background-color: #24a3ff;
 }
 
-.network:hover .svg * {
+.network:hover * {
   transition: 0.3s;
   fill: #f0145a;
-}
-
-.network:hover .txt {
-  transition: 0.3s;
   color: #f0145a;
 }
 /* --------------------- */
@@ -392,6 +394,17 @@ html {
 @media (max-width: 572px) {
   .container {
     width: 100%;
+  }
+  .upheader {
+    grid-template-columns: auto;
+    margin-top: 0px;
+  }
+  .main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .official {
+    grid-gap: 30px;
   }
   .burger-stan {
     display: block;
@@ -516,6 +529,10 @@ html {
   .upheader {
     grid-template-columns: auto;
     margin-top: 0px;
+  }
+  .main {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .logo {
     justify-content: space-between;
@@ -655,5 +672,11 @@ html {
   .adress,
   .footer svg {
     display: none;
+  }
+  .official {
+    grid-gap: 30px;
+  }
+  .logo {
+    height: 57px;
   }
 }
